@@ -1,0 +1,347 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    font-family: sans-serif;
+}
+.logo{
+    font-size: 40px;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+h1, h2, h3{
+ padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+#navbar{
+    background-color: #333;
+    color: #ffffff;
+    overflow: auto;
+}
+#navbar a{
+    color: #ffffff;
+    font-size: 20px;
+}
+#navbar h1{
+    float: left;
+    padding-top: 0px;
+    font-size: 40px;
+}
+#navbar ul{
+float: right;
+list-style: none;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    display: inline-block;
+    padding: 25px;
+}
+#navbar ul li a:hover, 
+#navbar ul li a.current{
+background-color: aqua;
+color: #000;
+
+
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+
+
+.hero-info{
+    width: 345px;
+    height: 238px;
+  
+}
+
+.hero-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-h1{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+color: #000000;
+
+}
+
+
+.hero-text{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 100;
+font-size: 21px;
+line-height: 32px;
+color: #7D7987;
+padding-top: 0px;
+}
+
+.hero-img{
+    padding-top: 184px;
+}
+
+.hero-btn{
+    width: 100px;
+    height: 56px;
+    background: #458FF6;
+border-radius: 55px;
+padding: 10px 40px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-decoration:none ;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* About Section */
+.aboout-info{
+    padding-top: 371px;
+}
+
+.about-h2{
+
+text-align: center;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 56px;
+color: #000000;
+margin-top: 110px;
+}
+.linya{
+width: 56px;
+height: 2px;
+background: #000000;
+border-radius: 5px;
+}
+.about-p{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #7D7987;
+margin:  0 250px;
+}
+.about-ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+}
+.about-li{
+    width: 300px;
+    height: 354px;
+    list-style: none;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    
+}
+.about-img{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.about-h3{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 56px;
+color: #000000;
+text-align: center;
+}
+
+.about-paragf{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+color: #7D7987;
+justify-content: space-between;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+/* Aloqa */
+
+#contact-form{
+    padding: 20px 0;
+}
+#contact-form h1{
+    font-size: 32px;
+}
+#contact-form .form-group{
+    margin-bottom: 20px;
+    
+    
+}
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input, 
+#contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+#contact-form textarea {
+    width: 60%;
+    padding: 120px;
+    border: 1px solid #333;
+}
+
+.bobom{
+    background-color: #f7c08a;
+    color: #333; 
+    
+}
+.text-primary{
+    color: #f7c08a;
+}
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #333;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.box{
+    width:25.9%;
+    float: left;
+    padding: 50px;
+    text-align: center;
+}
+.box img{
+    margin-bottom: 10px;
+}
+#main-footer{
+    text-align: center;
+    background-color: #444;
+    color: #ffffff;
+    padding: 20px;
+}
+.bobom{
+    background-color: #f7c08a;
+    color: #333; 
+    
+}
+.clr{
+    clear: both;
+}
+/* Narx */
+
+.bola{
+    position: absolute;
+    top: 170px;
+    left: 180px;
+}
+.bola button{
+    border:5px solid #ffffff;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 20px;
+    
+}
+
+
+.ona{
+    position: absolute;
+    top: 170px;
+    left: 540px;
+}
+.ona button{
+    border:5px solid #ffffff;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 20px;
+    
+}
+.ota{
+    position: absolute;
+    top: 170px;
+    left: 920px;
+}
+.ota button{
+    border:5px solid #ffffff;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 20px;
+    
+}
+.uka{
+    position: absolute;
+    top: 640px;
+    left: 180px;
+}
+.uka button{
+    border:5px solid #ffffff;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 20px;
+    
+}
+.opa{
+    position: absolute;
+    top: 640px;
+    left: 540px;
+}
+.opa button{
+    border:5px solid #ffffff;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 20px;
+    
+}
+.aka{
+    position: absolute;
+    top: 640px;
+    left: 920px;
+}
+.aka button{
+    border:5px solid #ffffff;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 20px;
+    
+}
+.umid1 table tr td p{
+    color: #777;
+
+}
+.umid1 table tr td h3{
+    color: #444;
+
+}
